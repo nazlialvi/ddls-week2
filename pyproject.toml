@@ -1,0 +1,32 @@
+[project]
+name = "ddls-week2"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.141.1",
+    "matplotlib>=3.11.1",
+    "pandas>=3.0.5",
+    "pillow>=12.3.0",
+    "python-multipart>=0.0.32",
+    "scikit-learn>=1.9.0",
+    "torch>=2.14.0",
+    "torchvision>=0.29.0",
+    "uvicorn[standard]>=0.52.4",
+]
+
+[project.scripts]
+ddls-week2 = "ddls_week2:main"
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu" }]
+torchvision = [{ index = "pytorch-cpu" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,280 @@
+{
+  "slide_summary": [
+    {
+      "slide_id": "C1",
+      "malaria_status": "unknown",
+      "total_cell_count": 70,
+      "infected_cell_count": 0,
+      "clean_cell_count": 70,
+      "infected_cell_share": 0.0,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "SAFE"
+    },
+    {
+      "slide_id": "C100P61",
+      "malaria_status": "unknown",
+      "total_cell_count": 125,
+      "infected_cell_count": 57,
+      "clean_cell_count": 68,
+      "infected_cell_share": 0.456,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C116P77",
+      "malaria_status": "unknown",
+      "total_cell_count": 140,
+      "infected_cell_count": 120,
+      "clean_cell_count": 20,
+      "infected_cell_share": 0.8571428571428571,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C117P78",
+      "malaria_status": "unknown",
+      "total_cell_count": 140,
+      "infected_cell_count": 70,
+      "clean_cell_count": 70,
+      "infected_cell_share": 0.5,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C139P100",
+      "malaria_status": "unknown",
+      "total_cell_count": 86,
+      "infected_cell_count": 19,
+      "clean_cell_count": 67,
+      "infected_cell_share": 0.22093023255813954,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C142P103",
+      "malaria_status": "unknown",
+      "total_cell_count": 85,
+      "infected_cell_count": 14,
+      "clean_cell_count": 71,
+      "infected_cell_share": 0.16470588235294117,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C162P123",
+      "malaria_status": "unknown",
+      "total_cell_count": 84,
+      "infected_cell_count": 17,
+      "clean_cell_count": 67,
+      "infected_cell_share": 0.20238095238095238,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C167P128Re",
+      "malaria_status": "unknown",
+      "total_cell_count": 140,
+      "infected_cell_count": 81,
+      "clean_cell_count": 59,
+      "infected_cell_share": 0.5785714285714286,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C168P129",
+      "malaria_status": "unknown",
+      "total_cell_count": 114,
+      "infected_cell_count": 46,
+      "clean_cell_count": 68,
+      "infected_cell_share": 0.40350877192982454,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C170P131",
+      "malaria_status": "unknown",
+      "total_cell_count": 93,
+      "infected_cell_count": 28,
+      "clean_cell_count": 65,
+      "infected_cell_share": 0.3010752688172043,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C175P136N",
+      "malaria_status": "unknown",
+      "total_cell_count": 140,
+      "infected_cell_count": 90,
+      "clean_cell_count": 50,
+      "infected_cell_share": 0.6428571428571429,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C181P142",
+      "malaria_status": "unknown",
+      "total_cell_count": 140,
+      "infected_cell_count": 101,
+      "clean_cell_count": 39,
+      "infected_cell_share": 0.7214285714285714,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C204",
+      "malaria_status": "unknown",
+      "total_cell_count": 67,
+      "infected_cell_count": 0,
+      "clean_cell_count": 67,
+      "infected_cell_share": 0.0,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "SAFE"
+    },
+    {
+      "slide_id": "C210",
+      "malaria_status": "unknown",
+      "total_cell_count": 68,
+      "infected_cell_count": 0,
+      "clean_cell_count": 68,
+      "infected_cell_share": 0.0,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "SAFE"
+    },
+    {
+      "slide_id": "C216",
+      "malaria_status": "unknown",
+      "total_cell_count": 68,
+      "infected_cell_count": 0,
+      "clean_cell_count": 68,
+      "infected_cell_share": 0.0,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "SAFE"
+    },
+    {
+      "slide_id": "C222",
+      "malaria_status": "unknown",
+      "total_cell_count": 69,
+      "infected_cell_count": 0,
+      "clean_cell_count": 69,
+      "infected_cell_share": 0.0,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "SAFE"
+    },
+    {
+      "slide_id": "C228",
+      "malaria_status": "unknown",
+      "total_cell_count": 66,
+      "infected_cell_count": 0,
+      "clean_cell_count": 66,
+      "infected_cell_share": 0.0,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "SAFE"
+    },
+    {
+      "slide_id": "C234",
+      "malaria_status": "unknown",
+      "total_cell_count": 65,
+      "infected_cell_count": 0,
+      "clean_cell_count": 65,
+      "infected_cell_share": 0.0,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "SAFE"
+    },
+    {
+      "slide_id": "C240",
+      "malaria_status": "unknown",
+      "total_cell_count": 65,
+      "infected_cell_count": 0,
+      "clean_cell_count": 65,
+      "infected_cell_share": 0.0,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "SAFE"
+    },
+    {
+      "slide_id": "C68P29N",
+      "malaria_status": "unknown",
+      "total_cell_count": 140,
+      "infected_cell_count": 126,
+      "clean_cell_count": 14,
+      "infected_cell_share": 0.9,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C80P41",
+      "malaria_status": "unknown",
+      "total_cell_count": 140,
+      "infected_cell_count": 112,
+      "clean_cell_count": 28,
+      "infected_cell_share": 0.8,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C88P49",
+      "malaria_status": "unknown",
+      "total_cell_count": 82,
+      "infected_cell_count": 12,
+      "clean_cell_count": 70,
+      "infected_cell_share": 0.14634146341463414,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C95P56",
+      "malaria_status": "unknown",
+      "total_cell_count": 92,
+      "infected_cell_count": 24,
+      "clean_cell_count": 68,
+      "infected_cell_share": 0.2608695652173913,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    },
+    {
+      "slide_id": "C98P59",
+      "malaria_status": "unknown",
+      "total_cell_count": 108,
+      "infected_cell_count": 39,
+      "clean_cell_count": 69,
+      "infected_cell_share": 0.3611111111111111,
+      "quality_concern_count": 0,
+      "doubtful_review_count": 0,
+      "decision": "REVIEW"
+    }
+  ],
+  "reconciliation": {
+    "infected": 956,
+    "clean": 1431,
+    "total": 2387,
+    "expected_infected": 956,
+    "expected_clean": 1431,
+    "matches": true
+  },
+  "cutoff_proposal": {
+    "review_if_share_at_least": 0.1463,
+    "rule": "REVIEW at infected-cell share >= 14.63%; otherwise SAFE, with override: any convincing faint ring sends the slide to REVIEW regardless of share."
+  }
+}

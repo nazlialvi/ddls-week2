@@ -1,0 +1,641 @@
+{
+  "method": "frozen ResNet18 ImageNet features + LogisticRegression head",
+  "sample_size": 240,
+  "train_size": 163,
+  "held_out_size": 77,
+  "held_out_only": true,
+  "records": [
+    {
+      "filename": "images/parasitized/C170P131ThinF_IMG_20151119_115918_cell_271.png",
+      "slide_id": "C170P131",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9994926452636719
+    },
+    {
+      "filename": "images/uninfected/C240ThinF_IMG_20151127_115306_cell_73.png",
+      "slide_id": "C240",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.7620989084243774
+    },
+    {
+      "filename": "images/uninfected/C95P56ThinF_IMG_20150821_172607_cell_9.png",
+      "slide_id": "C95P56",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.6947548389434814
+    },
+    {
+      "filename": "images/parasitized/C95P56ThinF_IMG_20150821_171701_cell_98.png",
+      "slide_id": "C95P56",
+      "csv_label": "parasitized",
+      "model_prediction": "uninfected",
+      "agree": false,
+      "confidence": 0.6099226474761963,
+      "microscopist_confidence": "doubtful"
+    },
+    {
+      "filename": "images/parasitized/C95P56ThinF_IMG_20150821_172319_cell_105.png",
+      "slide_id": "C95P56",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.970240592956543
+    },
+    {
+      "filename": "images/parasitized/C80P41ThinF_IMG_20150817_111802_cell_20.png",
+      "slide_id": "C80P41",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9977341890335083
+    },
+    {
+      "filename": "images/uninfected/C228ThinF_IMG_20151112_142730_cell_82.png",
+      "slide_id": "C228",
+      "csv_label": "uninfected",
+      "model_prediction": "parasitized",
+      "agree": false,
+      "confidence": 0.8545756936073303,
+      "microscopist_confidence": "doubtful"
+    },
+    {
+      "filename": "images/uninfected/C240ThinF_IMG_20151127_115328_cell_72.png",
+      "slide_id": "C240",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9570775628089905
+    },
+    {
+      "filename": "images/parasitized/C142P103ThinF_IMG_20151005_221931_cell_189.png",
+      "slide_id": "C142P103",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.8521085977554321
+    },
+    {
+      "filename": "images/uninfected/C95P56ThinF_IMG_20150821_172222_cell_22.png",
+      "slide_id": "C95P56",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9957569241523743
+    },
+    {
+      "filename": "images/parasitized/C142P103ThinF_IMG_20151005_223257_cell_186.png",
+      "slide_id": "C142P103",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9328526258468628
+    },
+    {
+      "filename": "images/parasitized/C95P56ThinF_IMG_20150821_171242_cell_101.png",
+      "slide_id": "C95P56",
+      "csv_label": "parasitized",
+      "model_prediction": "uninfected",
+      "agree": false,
+      "confidence": 0.8428375720977783,
+      "microscopist_confidence": "doubtful"
+    },
+    {
+      "filename": "images/uninfected/C222ThinF_IMG_20151115_151433_cell_104.png",
+      "slide_id": "C222",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9973345398902893
+    },
+    {
+      "filename": "images/uninfected/C170P131ThinF_IMG_20151119_120233_cell_120.png",
+      "slide_id": "C170P131",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9961405396461487
+    },
+    {
+      "filename": "images/parasitized/C162P123ThinF_IMG_20151116_104736_cell_182.png",
+      "slide_id": "C162P123",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9951406717300415
+    },
+    {
+      "filename": "images/uninfected/C228ThinF_IMG_20151112_142730_cell_20.png",
+      "slide_id": "C228",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9968093037605286
+    },
+    {
+      "filename": "images/uninfected/C95P56ThinF_IMG_20150821_171701_cell_88.png",
+      "slide_id": "C95P56",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.8154604434967041
+    },
+    {
+      "filename": "images/parasitized/C80P41ThinF_IMG_20150817_110957_cell_152.png",
+      "slide_id": "C80P41",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9979507327079773
+    },
+    {
+      "filename": "images/parasitized/C95P56ThinF_IMG_20150821_171701_cell_96.png",
+      "slide_id": "C95P56",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9025678038597107
+    },
+    {
+      "filename": "images/parasitized/C170P131ThinF_IMG_20151119_120111_cell_234.png",
+      "slide_id": "C170P131",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9998772144317627
+    },
+    {
+      "filename": "images/uninfected/C162P123ThinF_IMG_20151116_102751_cell_92.png",
+      "slide_id": "C162P123",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9982172250747681
+    },
+    {
+      "filename": "images/parasitized/C162P123ThinF_IMG_20151116_105019_cell_146.png",
+      "slide_id": "C162P123",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9860964417457581
+    },
+    {
+      "filename": "images/uninfected/C240ThinF_IMG_20151127_115247_cell_208.png",
+      "slide_id": "C240",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9307748079299927
+    },
+    {
+      "filename": "images/parasitized/C95P56ThinF_IMG_20150821_171242_cell_100.png",
+      "slide_id": "C95P56",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9999831914901733
+    },
+    {
+      "filename": "images/parasitized/C142P103ThinF_IMG_20151005_221931_cell_192.png",
+      "slide_id": "C142P103",
+      "csv_label": "parasitized",
+      "model_prediction": "uninfected",
+      "agree": false,
+      "confidence": 0.9921259880065918,
+      "microscopist_confidence": "doubtful"
+    },
+    {
+      "filename": "images/parasitized/C170P131ThinF_IMG_20151119_120111_cell_231.png",
+      "slide_id": "C170P131",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9969654679298401
+    },
+    {
+      "filename": "images/uninfected/C162P123ThinF_IMG_20151116_105019_cell_49.png",
+      "slide_id": "C162P123",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9967325925827026
+    },
+    {
+      "filename": "images/uninfected/C222ThinF_IMG_20151115_150728_cell_195.png",
+      "slide_id": "C222",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9954531788825989
+    },
+    {
+      "filename": "images/uninfected/C80P41ThinF_IMG_20150817_110957_cell_34.png",
+      "slide_id": "C80P41",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.920067310333252
+    },
+    {
+      "filename": "images/uninfected/C142P103ThinF_IMG_20151005_221900_cell_24.png",
+      "slide_id": "C142P103",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9917197227478027
+    },
+    {
+      "filename": "images/parasitized/C170P131ThinF_IMG_20151119_120150_cell_223.png",
+      "slide_id": "C170P131",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9979288578033447
+    },
+    {
+      "filename": "images/uninfected/C170P131ThinF_IMG_20151119_120111_cell_112.png",
+      "slide_id": "C170P131",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9960294365882874
+    },
+    {
+      "filename": "images/parasitized/C80P41ThinF_IMG_20150817_112557_cell_15.png",
+      "slide_id": "C80P41",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9707067608833313
+    },
+    {
+      "filename": "images/uninfected/C95P56ThinF_IMG_20150821_172607_cell_39.png",
+      "slide_id": "C95P56",
+      "csv_label": "uninfected",
+      "model_prediction": "parasitized",
+      "agree": false,
+      "confidence": 0.8111600279808044,
+      "microscopist_confidence": "doubtful"
+    },
+    {
+      "filename": "images/parasitized/C162P123ThinF_IMG_20151116_102655_cell_162.png",
+      "slide_id": "C162P123",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.999993085861206
+    },
+    {
+      "filename": "images/parasitized/C95P56ThinF_IMG_20150821_172607_cell_96.png",
+      "slide_id": "C95P56",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9998641014099121
+    },
+    {
+      "filename": "images/uninfected/C170P131ThinF_IMG_20151119_115918_cell_136.png",
+      "slide_id": "C170P131",
+      "csv_label": "uninfected",
+      "model_prediction": "parasitized",
+      "agree": false,
+      "confidence": 0.6485288739204407,
+      "microscopist_confidence": "doubtful"
+    },
+    {
+      "filename": "images/parasitized/C142P103ThinF_IMG_20151005_221931_cell_191.png",
+      "slide_id": "C142P103",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.999417781829834
+    },
+    {
+      "filename": "images/parasitized/C142P103ThinF_IMG_20151005_223257_cell_188.png",
+      "slide_id": "C142P103",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9619930386543274
+    },
+    {
+      "filename": "images/parasitized/C142P103ThinF_IMG_20151005_223257_cell_187.png",
+      "slide_id": "C142P103",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9948679208755493
+    },
+    {
+      "filename": "images/uninfected/C170P131ThinF_IMG_20151119_120111_cell_25.png",
+      "slide_id": "C170P131",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.5980006456375122
+    },
+    {
+      "filename": "images/uninfected/C80P41ThinF_IMG_20150817_111246_cell_27.png",
+      "slide_id": "C80P41",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.8293463587760925
+    },
+    {
+      "filename": "images/parasitized/C80P41ThinF_IMG_20150817_111802_cell_12.png",
+      "slide_id": "C80P41",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9825332760810852
+    },
+    {
+      "filename": "images/uninfected/C80P41ThinF_IMG_20150817_111246_cell_25.png",
+      "slide_id": "C80P41",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9780355095863342
+    },
+    {
+      "filename": "images/uninfected/C222ThinF_IMG_20151115_150925_cell_214.png",
+      "slide_id": "C222",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9793071746826172
+    },
+    {
+      "filename": "images/uninfected/C162P123ThinF_IMG_20151116_104342_cell_39.png",
+      "slide_id": "C162P123",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.8560041189193726
+    },
+    {
+      "filename": "images/parasitized/C162P123ThinF_IMG_20151116_104114_cell_171.png",
+      "slide_id": "C162P123",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9995096921920776
+    },
+    {
+      "filename": "images/parasitized/C80P41ThinF_IMG_20150817_111802_cell_18.png",
+      "slide_id": "C80P41",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9999732971191406
+    },
+    {
+      "filename": "images/uninfected/C228ThinF_IMG_20151112_142216_cell_183.png",
+      "slide_id": "C228",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9994210600852966
+    },
+    {
+      "filename": "images/parasitized/C95P56ThinF_IMG_20150821_171631_cell_104.png",
+      "slide_id": "C95P56",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.6004358530044556
+    },
+    {
+      "filename": "images/uninfected/C162P123ThinF_IMG_20151116_104114_cell_112.png",
+      "slide_id": "C162P123",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9888941049575806
+    },
+    {
+      "filename": "images/uninfected/C80P41ThinF_IMG_20150817_110834_cell_23.png",
+      "slide_id": "C80P41",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9122165441513062
+    },
+    {
+      "filename": "images/parasitized/C170P131ThinF_IMG_20151119_120019_cell_245.png",
+      "slide_id": "C170P131",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9157454371452332
+    },
+    {
+      "filename": "images/uninfected/C142P103ThinF_IMG_20151005_221931_cell_86.png",
+      "slide_id": "C142P103",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9934448599815369
+    },
+    {
+      "filename": "images/parasitized/C80P41ThinF_IMG_20150817_111121_cell_149.png",
+      "slide_id": "C80P41",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9961240887641907
+    },
+    {
+      "filename": "images/parasitized/C95P56ThinF_IMG_20150821_171603_cell_78.png",
+      "slide_id": "C95P56",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9240669012069702
+    },
+    {
+      "filename": "images/uninfected/C228ThinF_IMG_20151112_142216_cell_179.png",
+      "slide_id": "C228",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9647533893585205
+    },
+    {
+      "filename": "images/parasitized/C170P131ThinF_IMG_20151119_120111_cell_229.png",
+      "slide_id": "C170P131",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.8810034394264221
+    },
+    {
+      "filename": "images/uninfected/C95P56ThinF_IMG_20150821_171701_cell_90.png",
+      "slide_id": "C95P56",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9857401251792908
+    },
+    {
+      "filename": "images/uninfected/C222ThinF_IMG_20151115_151015_cell_81.png",
+      "slide_id": "C222",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9825268983840942
+    },
+    {
+      "filename": "images/parasitized/C170P131ThinF_IMG_20151119_120019_cell_249.png",
+      "slide_id": "C170P131",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9995169639587402
+    },
+    {
+      "filename": "images/uninfected/C228ThinF_IMG_20151112_142730_cell_128.png",
+      "slide_id": "C228",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9445087313652039
+    },
+    {
+      "filename": "images/parasitized/C162P123ThinF_IMG_20151116_102655_cell_161.png",
+      "slide_id": "C162P123",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.99932861328125
+    },
+    {
+      "filename": "images/uninfected/C170P131ThinF_IMG_20151119_120233_cell_99.png",
+      "slide_id": "C170P131",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9864758253097534
+    },
+    {
+      "filename": "images/parasitized/C142P103ThinF_IMG_20151005_223257_cell_185.png",
+      "slide_id": "C142P103",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.8922282457351685
+    },
+    {
+      "filename": "images/parasitized/C162P123ThinF_IMG_20151116_102655_cell_163.png",
+      "slide_id": "C162P123",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9999986886978149
+    },
+    {
+      "filename": "images/uninfected/C95P56ThinF_IMG_20150821_172222_cell_33.png",
+      "slide_id": "C95P56",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9779768586158752
+    },
+    {
+      "filename": "images/parasitized/C170P131ThinF_IMG_20151119_115918_cell_272.png",
+      "slide_id": "C170P131",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.6457449197769165
+    },
+    {
+      "filename": "images/uninfected/C222ThinF_IMG_20151115_150925_cell_71.png",
+      "slide_id": "C222",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9994103908538818
+    },
+    {
+      "filename": "images/uninfected/C142P103ThinF_IMG_20151005_221931_cell_165.png",
+      "slide_id": "C142P103",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9821849465370178
+    },
+    {
+      "filename": "images/uninfected/C222ThinF_IMG_20151115_151211_cell_34.png",
+      "slide_id": "C222",
+      "csv_label": "uninfected",
+      "model_prediction": "parasitized",
+      "agree": false,
+      "confidence": 0.5309045910835266,
+      "microscopist_confidence": "doubtful"
+    },
+    {
+      "filename": "images/uninfected/C162P123ThinF_IMG_20151116_102655_cell_138.png",
+      "slide_id": "C162P123",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9020628333091736
+    },
+    {
+      "filename": "images/uninfected/C240ThinF_IMG_20151127_115306_cell_172.png",
+      "slide_id": "C240",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9318215847015381
+    },
+    {
+      "filename": "images/uninfected/C95P56ThinF_IMG_20150821_171242_cell_35.png",
+      "slide_id": "C95P56",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9963942170143127
+    },
+    {
+      "filename": "images/parasitized/C162P123ThinF_IMG_20151116_104451_cell_168.png",
+      "slide_id": "C162P123",
+      "csv_label": "parasitized",
+      "model_prediction": "parasitized",
+      "agree": true,
+      "confidence": 0.9951379895210266
+    },
+    {
+      "filename": "images/uninfected/C228ThinF_IMG_20151112_142900_cell_202.png",
+      "slide_id": "C228",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.9981831312179565
+    },
+    {
+      "filename": "images/uninfected/C80P41ThinF_IMG_20150817_110957_cell_80.png",
+      "slide_id": "C80P41",
+      "csv_label": "uninfected",
+      "model_prediction": "uninfected",
+      "agree": true,
+      "confidence": 0.6482366919517517
+    }
+  ],
+  "held_out_class_balance": {
+    "parasitized": 36,
+    "uninfected": 41
+  },
+  "majority_baseline": {
+    "prediction": "uninfected",
+    "agreement_rate": 0.5324675324675324
+  },
+  "imaging_caveat": "Giemsa staining strength and image quality vary between slides. A frozen ImageNet feature extractor may rely partly on stain intensity or contrast: heavily stained slides could make purple parasite-like marks easier for the model and inflate agreement there, while pale or unevenly lit slides could hide faint rings and deflate agreement. Conversely, if the model mistakes heavy stain clumps for parasites, heavy staining could reduce agreement. Therefore 90.91% may reflect the stain/illumination mix of this held-out slide split, not general cell-reading performance."
+}
